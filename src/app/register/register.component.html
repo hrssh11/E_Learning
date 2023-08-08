@@ -1,0 +1,42 @@
+<div class="container">
+<div class="row justify-content-center">
+ <mat-card >
+        <mat-card-header>
+            <h2 >User Sign-Up</h2>
+        </mat-card-header>
+        <mat-card-content>
+            <form class="example-form" [formGroup]="registerForm">
+                <mat-form-field class="example-full-width">
+                  <mat-label>User Name</mat-label>
+                  <input formControlName="id" matInput placeholder="xyz@113">
+                </mat-form-field>
+    
+                <mat-form-field class="example-full-width">
+                  <mat-label>Name</mat-label>
+                  <input formControlName="name" matInput placeholder="Name"> 
+                </mat-form-field>
+    
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input type="password" formControlName="password" matInput placeholder="****"> 
+                  </mat-form-field>
+    
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input formControlName="email" matInput placeholder="abc@gmail.com"> 
+                  </mat-form-field>
+    
+               <mat-radio-group formControlName="gender" aria-label="Select an Option">
+                <mat-label>Gender:</mat-label>
+                 <mat-radio-button value="Male">Male </mat-radio-button>
+                 <mat-radio-button value="Female">Female </mat-radio-button>
+               </mat-radio-group>
+              </form>
+              <div>
+                <button type="submit" (click)="onsubmitClick()" mat-raised-button class="btn-submit"> Submit</button>
+                <a  type="button" routerLink="/login" mat-raised-button class="btn-submit">Back to Login</a>
+              </div>
+        </mat-card-content>
+    </mat-card>
+</div>
+</div>

@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": "hrssh1",
+      "name": "Harsh Gupta",
+      "password": "Popcon113",
+      "email": "medatwalhrssh1@gmail.com",
+      "gender": "Male",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "hrssh12",
+      "name": "dd",
+      "password": "dasddd",
+      "email": "asdsa@gm.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "amisha113",
+      "name": "amisha",
+      "password": "popcon113",
+      "email": "acbc@gmai.com",
+      "gender": "Female",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "hrssh2",
+      "name": "hrarsh2",
+      "password": "123456789",
+      "email": "abc@gmail.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "keval112",
+      "name": "keval",
+      "password": "Popcon113",
+      "email": "acc@gmail.com",
+      "gender": "Male",
+      "role": "admin",
+      "isActive": false
+    },
+    {
+      "id": "vijay113",
+      "name": "vijay sir ",
+      "password": "popcon113",
+      "email": "abc@gm.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "mansi121",
+      "name": "Mansi ",
+      "password": "popcon113",
+      "email": "accx@gmail.com",
+      "gender": "Female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "testing113",
+      "name": "tester",
+      "password": "popcon113",
+      "email": "abc@gmail.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": true
+    }
+  ]
+}

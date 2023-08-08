@@ -1,0 +1,15 @@
+.navbar{
+    /* background-color: rgb(250, 217, 27) !important; */
+    /* background-color: rgb(0, 68, 124) !important; */
+    background-color: rgb(1, 23, 69) !important;
+   
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-toggler span{
+    color: white !important;
+}

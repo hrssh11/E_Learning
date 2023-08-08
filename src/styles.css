@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-mdc-form-field{
+    width: 100%;
+}
+.mdc-button{
+    margin :5px !important;
+}
+
+.content{
+display: block !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: whitesmoke;
+    padding-left: 1px;
+}
+.mat-mdc-card {
+    position: relative;
+    width: 441px !important;
+    margin-top: 120px !important
+}
+.active{
+    color: rgb(240, 245, 245) !important;
+    /* background-color: aqua !important; */
+}
+
+.btn-submit{
+     background-color:#011845 !important;
+    color: white !important;
+}
