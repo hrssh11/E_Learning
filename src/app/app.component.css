@@ -7,11 +7,17 @@ nav , ul , li {
 nav{
     margin-top: 0px;
     width: 100%;
-    background-color: rgb(240, 240, 28);
+    /* background-color: rgb(189, 230, 235) !important; */
     height: 62px;
 }
 .nav-joinbtn{
     display: inline-block;
     position: absolute;
     right: 0 !important;
+    margin-right: 39px !important;
+    margin-top: -5px !important;
+}
+.custom-button{
+    background-color: rgb(11, 102, 102) !important;
+    color: white !important;
 }
