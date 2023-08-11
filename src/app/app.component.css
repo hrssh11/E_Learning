@@ -5,11 +5,27 @@
    
 }
 .nav-link{
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
 }
 .navbar-brand{
     color: white;
 }
 .navbar-toggler span{
     color: white !important;
+}
+nav , ul , li {
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 12px;
+}
+nav{
+    margin-top: 0px;
+    width: 100%;
+    background-color: rgb(240, 240, 28);
+    height: 62px;
+}
+.nav-joinbtn{
+    display: inline-block;
+    position: absolute;
+    right: 0 !important;
 }
