@@ -1,8 +1,11 @@
-<nav>
-  <a class="navbar-brand" mat-button color="primary" href="#">ClassBridge</a>
-  <ul>
-  <li> 
-    <a mat-button >Home</a> 
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a class="navbar-brand" mat-button color="primary" href="#">ClassBridge</a>
+  <ul class="navbar-nav">
+    <a  mat-button >Home</a> 
     <a mat-button >Teachers</a>
     <a mat-button >Working Staff</a>
     <a mat-button >Update</a>
@@ -14,5 +17,6 @@
       </svg>JoinNow</a>
   </div>
 </ul>
+</div>
 </nav>
 <router-outlet></router-outlet>
